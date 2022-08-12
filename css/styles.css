@@ -173,7 +173,12 @@ h1, h2, h3, h4, h5, h6{
         transform: rotate(0);
         width: 60%;
     }
-    #title {
-        
+}
+
+/*Created this to center the heading on smaller devices as the heading/img looked out off */
+@media (max-width: 470px){
+
+    .center-container {
+        text-align: center;
     }
 }
